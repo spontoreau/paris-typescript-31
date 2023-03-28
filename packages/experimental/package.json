@@ -1,0 +1,17 @@
+{
+  "name": "@demo/experimental",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "start": "node dist/index"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@demo/shared": "*"
+  }
+}
